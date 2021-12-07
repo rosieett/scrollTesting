@@ -1,10 +1,12 @@
-body {
-  margin: 3rem auto;
-  max-width: 60rem;
-}
+
 h1 {
   text-align: center;
   margin-bottom: 3rem;
+}
+
+.onlyText {
+  margin: 0 auto;
+  width: 75%;
 }
 
 /* first section */
@@ -84,7 +86,7 @@ h1 {
 
 .secondImg {
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   width: 100%;
   margin-top: 20%;
 }
