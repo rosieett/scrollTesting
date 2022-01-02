@@ -1,0 +1,10 @@
+//stacking images on top of each other in it's own div to transition and fade into each other then wire it up to go through scroll detection
+// when that specific text box hits the point of the trigger 
+
+//event that hires on scroll - you'll read the distance between the top of the viewport and the top of the page (as you scroll down the number gets bigger)
+//trying to figure how to tell when the top of the text box and the top of the viewport when you scroll
+//all that is is a calculation between viewport to page top and textbox top to page top
+
+
+
+
