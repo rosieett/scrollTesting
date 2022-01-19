@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
       let textBoxIndex = textBoxArray.findIndex(box => {
         let rect = box.getBoundingClientRect();
   
-        console.log(rect.top, 'textTop');
-        console.log(rect.bottom, 'textBottom');
+//         console.log(rect.top, 'textTop');
+//         console.log(rect.bottom, 'textBottom');
   
         if (rect.top <= scrollCenter && rect.bottom >= 0) {
           return true;
@@ -27,11 +27,11 @@ document.addEventListener('DOMContentLoaded', () => {
   
       if (textBoxIndex !== -1) {
   
-        console.log(textBoxIndex);
+//         console.log(textBoxIndex);
   
         let activeImage = imagesArray[textBoxIndex];
   
-        console.log(activeImage);
+//         console.log(activeImage);
   
         imagesArray.forEach(img => img.classList.remove('active'));
         activeImage.classList.add('active');
